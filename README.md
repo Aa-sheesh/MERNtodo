@@ -21,5 +21,11 @@ This is the first project of my **MERN Mastery** series.
     npm run start
 ```
 
-3. `cd .. cd frontend npm i npm run dev `
-4. Press Ctrl + o
+3. ```
+        cd .. 
+        cd frontend 
+        npm i 
+        npm run dev 
+    
+    ```
+4. Press Ctrl + o and your todo app is up and ready.
