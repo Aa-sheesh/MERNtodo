@@ -20,7 +20,7 @@ router.post("/add", async (req, res) => {
       res.status(200).json({ message: "Todo added successfully" });
     }
   } catch (error) {
-    res.status(400).json({ message: "Todo failed to upload" });
+    res.status(200).json({ message: "Todo failed to upload" });
   }
 });
 
@@ -38,7 +38,7 @@ router.put("/update/:id", async (req, res) => {
       res.status(200).json({ message: "Updated successfully" });
     }
   } catch (error) {
-    res.status(400).json({ message: "Failed to update" });
+    res.status(200).json({ message: "Failed to update" });
   }
 });
 
@@ -55,7 +55,7 @@ router.delete("/delete/:id", async (req, res) => {
       res.status(200).json({ message: "Deleted successfully" });
     }
   } catch (error) {
-    res.status(400).json({ message: "Failed to delete" });
+    res.status(200).json({ message: "Failed to delete" });
   }
 });
 
@@ -71,7 +71,7 @@ router.get('/todos/:id',async (req,res)=>{
         
         }
     } catch (error) {
-        res.status(400).json({message:"Failed to fetch todos"})        
+        res.status(200).json({message:"Failed to fetch todos"})        
     }
 })
 

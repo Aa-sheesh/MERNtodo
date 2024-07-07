@@ -28,8 +28,7 @@ This is the first project of my **MERN Mastery** series.
     cd frontend
     npm i
     npm run dev
-
 ```
 
-4. Press Ctrl + o and your todo app is up and ready.
+4. Press `o + enter` and your todo app is up and ready.
 
